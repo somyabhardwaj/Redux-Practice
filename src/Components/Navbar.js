@@ -22,7 +22,7 @@ function Navbar() {
   </div>
   <div>
     <div>
-        <button>your balance:0</button>
+        <button className="btn btn-primary">your balance:0</button>
     </div>
   </div>
 </nav>
