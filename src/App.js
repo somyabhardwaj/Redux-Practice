@@ -1,13 +1,13 @@
 
 import './App.css';
-import Navbar from './Components/Navbar';
-import Shop from './Components/Shop';
+import Posts from './features/post/Posts';
+
+
 
 function App() {
   return (
     <>
-    <Navbar />
-    <Shop />
+    <Posts />
   
     </>
   );
