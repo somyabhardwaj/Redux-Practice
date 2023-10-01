@@ -7,8 +7,7 @@ import { selectAllPosts } from './postSlice'
 function Posts() {
     const posts = useSelector(selectAllPosts);
   
-    console.log({posts})
-    // Check if posts is undefined and handle the loading state
+
     if (!posts) {
       return <div>Loading...</div>;
     }
